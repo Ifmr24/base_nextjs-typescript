@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "next",
+        "dev": "nodemon --watch server.ts --exec ts-node server.ts",
         "build": "next build",
         "start": "next start",
         "type-check": "tsc"
